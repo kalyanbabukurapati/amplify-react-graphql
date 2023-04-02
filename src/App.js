@@ -13,15 +13,7 @@ import {
 import "./App.css";
 import "@aws-amplify/ui-react/styles.css";
 
-import {
-  Button,
-  Flex,
-  Heading,
-  Text,
-  TextField,
-  View,
-  withAuthenticator,
-} from "@aws-amplify/ui-react";
+
 import { listNotes } from "./graphql/queries";
 import {
   createNote as createNoteMutation,
