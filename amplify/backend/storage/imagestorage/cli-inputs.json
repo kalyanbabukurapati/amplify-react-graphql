@@ -1,0 +1,16 @@
+{
+  "resourceName": "imagestorage",
+  "policyUUID": "4d36321e",
+  "bucketName": "kalyanprojectbuceketunique",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
